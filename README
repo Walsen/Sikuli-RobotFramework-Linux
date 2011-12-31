@@ -1,0 +1,10 @@
+This is an example on how to set up an environment with Robot Framework and Sikuli.
+
+Compile the OpenCV sources and put all the libraries into the /lib directory,
+edit the opencv.conf file, modify the line to your projects /lib directory and copy it
+to /etc/ld.so.config.d/ finally run ldconfig as root.
+
+Based on the article of Mykhailo Moroz:
+http://blog.mykhailo.com/2011/02/how-to-sikuli-and-robot-framework.html
+
+Visit me on http://walsen.freekfactory.org
